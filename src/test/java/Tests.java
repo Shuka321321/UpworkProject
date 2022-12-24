@@ -53,7 +53,7 @@ public class Tests extends BaseTest {
     }
 
     @Test(priority = 3)
-    public void test() {
+    public void valueDiffTest() {
         convertPage.waitLoaderIcon();
 
         double payersaValue = Double.parseDouble(convertPage.getPayersaValue());
